@@ -71,3 +71,11 @@ while opc=="si":
 print(numeross)
 
 #Ejemplo 4 Crear una lista multidimencional (matriz) que almacene el nombre y telefono de 4 personas
+os.system ("cls")
+matriz = [["Juan", "1234567890"], 
+          ["Maria", "0987654321"], 
+          ["Pedro", "1122334455"], 
+          ["Ana", "5566778899"]]
+# Imprimir la matriz
+for i in range(len(matriz)):
+    print(f"Nombre: {matriz[i][0]}, Telefono: {matriz[i][1]}")
